@@ -74,14 +74,6 @@ def getRoundRREF(row, col):
 			return backup
 
 
-
-mtx = [
-   [ 1, 2, -1, -4],
-   [ 2, 3, -1, -11],
-   [-2, 0, -3, 22],]
-
-#printMatrix(ToReducedRowEchelonForm(mtx))
-
-mtx2 = getRoundRREF(4,5)
-printMatrix(mtx2)
-printMatrix(ToReducedRowEchelonForm(mtx2))
+mtx = getRoundRREF(4,5)
+printMatrix(mtx)
+printMatrix(ToReducedRowEchelonForm(mtx))
